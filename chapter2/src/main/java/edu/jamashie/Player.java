@@ -6,6 +6,10 @@ package edu.jamashie;
 public class Player {
     int number;
 
-    public void guess() {
-    }
+        void guess() {
+            Player p1;
+            Player p2;
+            Player p3;
+
+        }
 }
