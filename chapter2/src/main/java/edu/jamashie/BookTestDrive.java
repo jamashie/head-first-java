@@ -1,7 +1,4 @@
 package edu.jamashie;
-
-import java.awt.print.Book;
-
 /**
  * Created by bampk on 4/26/2017.
  */
@@ -11,16 +8,16 @@ public class BookTestDrive {
         Books myBooks = new Books();
         int x = 0;
 
-        Book myBooks0 = new Book();
-        Book myBooks1 = new Book();
-        Book myBooks2 = new Book();
-        //
+        Books myBooks0 = new Books();
+        Books myBooks1 = new Books();
+        Books myBooks2 = new Books();
+
         myBooks0.title = "The Grapes of Java";
-        myBooks0.title = "The Java Gatsby";
-        myBooks0.title = "The Java CookBook";
+        myBooks1.title = "The Java Gatsby";
+        myBooks2.title = "The Java CookBook";
         myBooks0.author = "bob";
-        myBooks0.author = "sue";
-        myBooks0.author = "ian";
+        myBooks1.author = "sue";
+        myBooks2.author = "ian";
 
         while(x < 3){
             System.out.println(myBooks.title);
